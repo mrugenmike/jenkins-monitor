@@ -1,9 +1,9 @@
 describe("loginSpecs", function () {
 
     var login = null;
-    var username = "administrator";
-    var password = "equalexperts";
-    var host = "http://49.248.27.91:9080/jenkins";
+    var username = "admin";
+    var password = "pass";
+    var host = "http://localhost/jenkins";
 
     beforeEach(function () {
         login = new Login(username, password, host);
